@@ -1,0 +1,36 @@
+ol{font-size: xx-large;}
+table {
+    border: 1px solid rgb(0, 0, 0);
+}
+th{
+    border: 1px solid rgb(255, 0, 157);
+}
+
+td{
+    border: 1px solid rgb(0, 255, 213);
+}
+#Headeruno {
+    color: rgb(43, 226, 67); 
+}
+#parrafoInicial {
+    color: coral; font-size: 40;
+}
+.Headerdos { color: rgba(151, 15, 248, 0.966);
+
+}
+#Paginaprincipal{color: rgba(26, 39, 156, 0.425);font: size 4000px;;}
+
+#listaIndex{
+list-style-type: none ;
+font-style: italic;
+font-family: 'Mukta', sans-serif;
+font-size: 40px;
+font-weight: bold;
+}   
+
+.headerPrincipal{
+    color: rgb(51, 4, 31);
+    font-style: normal;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

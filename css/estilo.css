@@ -1,0 +1,278 @@
+body{background-color: rgba(185, 176, 176, 0.411);}
+
+
+/* header */
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 20%;
+}
+
+
+li {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white; 
+list-style-type: none ;
+font-style: italic;
+font-family: 'Mukta', sans-serif;
+font-weight: bold;
+text-decoration: none;
+
+}  
+
+
+/* main & index */
+
+#gridIndex{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 50px 250px  50px 400px;
+    grid-template-areas: "titulo titulo" 
+                         "fotnav fotnav"
+                         "subt1 subt2"
+                         "txt1  txt2 "
+                         
+                         ;
+}
+
+
+
+a{
+    color: white;
+}
+
+
+
+
+.tituloUnoIndex{
+    color: rgb(51, 4, 31);
+    font-style: normal;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-area: titulo;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.tituloDosIndex {
+    border-color: rgb(248, 0, 62);
+        border-bottom: 70px;
+     display: inline-block;
+     grid-area: subt1;
+     align-self: flex-start;
+    
+    }
+
+    #parrafoIndexUno {
+        color: rgba(255, 255, 255, 0.425);font: size 4000px;;
+        background-color: rgba(63, 8, 8, 0.884);
+        display: inline-block;
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1.5px;
+    grid-area: txt1;
+    justify-self: center;
+    }
+
+    #parrafoIndexDos{
+        color: rgba(255, 255, 255, 0.425);font: size 4000px;;
+        background-color: rgba(63, 8, 8, 0.884);
+        display: inline-block;
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1.5px;
+    grid-area: txt2;
+    justify-self: center;
+    }
+
+    .tituloTresIndex {
+        border-color: rgb(248, 0, 62);
+        border-bottom: 70px;
+     display: inline-block;
+     grid-area: subt2;
+     align-self: flex-start;
+    
+    }
+    .wicked{
+        grid-area: fotnav;
+        height: 100%;
+        width: 80%;
+        justify-self: center;
+    }
+
+  /* footer */
+
+  footer {
+    grid-area: area6;
+
+    background-color: rgb(59, 59, 141);
+    width: 100%;
+}
+/* Actividades extra y miscelaneo*/
+
+#actividadesTituloUno {
+    color: rgb(43, 226, 67); 
+}
+#parrafoInicialActividades {
+    color: coral; font-size: 40;
+}
+.actividadesTituloDos { color: rgba(151, 15, 248, 0.966);
+
+}
+
+p{
+
+    font-family: 'Comfortaa', cursive;
+ font-size: 20px;
+
+}
+
+a {text-decoration: none;}
+
+/* inscripcion */
+
+#bodyInscripcion{
+    background-color: rgb(190, 168, 168);
+   
+}
+
+
+
+#tituloUnoInscripcion{ 
+    display: flex;
+justify-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(197, 0, 0);
+
+}
+#tituloDosInscripcion{ 
+    display: flex;
+justify-content: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(6, 43, 78);
+
+}
+  
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 600px;
+    
+}   
+
+
+/* ORIENTACIONES */
+
+#grid {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100px 150px 150px 200px;
+    grid-template-areas: "area1 area1"
+                         "area2 area3"
+                         "area4 area5"
+                         "area6 area7";
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.artes {
+    grid-area: area1;
+   
+}
+
+.descripcion {
+    grid-area: area2;
+    align-self: flex-start;
+}
+
+.pDescripcion {
+    grid-area: area4;
+    align-self: center;
+}
+
+.materias {
+    grid-area: area3;
+    align-self: flex-start;
+}
+
+.pMaterias {
+    grid-area: area5;
+    align-self: flex-end;
+}
+.imagenDePrueba{
+    grid-area: area6;
+    width: 100%;
+    height: 100%;
+}
+.imagenDePruebaDos{
+    grid-area: area7;
+    width: 85%;
+    height: 85%;
+}
+
+/* transcisiones  */
+
+.logo:hover{
+    transform: scale(1.5,1.5);
+    transition:all 2s;
+}
+li:hover{
+    transform: scale(2,2);
+    transition: all 1s;
+}
+.imagenDePruebaDos{
+    transform: skew(40deg);
+}
+
+#divExtraAct{
+    background-image: linear-gradient( red,green);
+}
+.pMaterias{
+    background-image: linear-gradient(to right blue, aquamarine );
+}
+
+
+.d-block w-100 {
+    height: 10%
+    ;
+    width: fit-content;
+}
